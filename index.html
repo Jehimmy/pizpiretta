@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pizpiretta — Personalización, Láser, Sublimación y Más</title>
+  <meta name="description" content="Personalización creativa producto personalizado y charms. Diseños personalizables, envío internacional, calidad artesanal." />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{--brand:#f4b0c3; --accent:#d4a24c}
+    .brand{color:var(--brand)}
+    .bg-brand{background:var(--brand)}
+    .border-brand{border-color:var(--brand)}
+  </style>
+</head>
+<body class="antialiased bg-gray-50 text-gray-800">
+  <!-- NAV -->
+  <header class="max-w-6xl mx-auto p-6 flex items-center justify-between">
+    <div class="flex items-center gap-4">
+      <div class="w-12 h-12 rounded-full bg-brand flex items-center justify-center text-white font-bold">PZ</div>
+      <div>
+        <h1 class="text-lg font-semibold">Pizpiretta</h1>
+        <p class="text-sm text-gray-500"> Personalizaciones - Grabados  </p>
+      </div>
+    </div>
+    <nav class="flex gap-6 items-center">
+      <a href="#coleccion" class="hover:underline">Colección</a>
+      <a href="#como-funciona" class="hover:underline">Cómo Personalizamos</a>
+      <a href="#reel" class="hover:underline">Reel</a>
+      <a href="#contacto" class="px-4 py-2 rounded-md bg-brand text-white">Comprar</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="bg-white">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center p-8">
+      <div>
+        <h2 class="text-4xl font-extrabold mb-4">Exprésate con Pizpiretta</h2>
+        <p class="text-lg text-gray-600 mb-6">Personaliza vasos, termos, etiquetas, agendas, gifts corporativos y más. Servicios profesionales de corte y grabado láser, sublimación y personalización creativa para cualquier ocasión. Diseña tu producto personalizadoe, añade significado y llévalo siempre contigo.</p>
+        <div class="flex gap-3">
+          <a href="#coleccion" class="px-5 py-3 rounded-md bg-brand text-white font-medium">Ver colección</a>
+          <a href="#contacto" class="px-5 py-3 rounded-md border border-brand text-brand font-medium">Contáctanos</a>
+        </div>
+        <ul class="mt-6 grid grid-cols-2 gap-2 text-sm text-gray-600">
+          <li>✅ Personalización rápida</li>
+        </ul>
+      </div>
+  </section>
+
+  <!-- COLECCIÓN -->
+  <section id="coleccion" class="max-w-6xl mx-auto p-8">
+    <h3 class="text-2xl font-bold mb-4">Servicios y Productos Destacados</h3>
+    <p class="text-gray-600 mb-6">Gran variedad de Modelos para detalles corporativos</p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Item -->
+      <article class="bg-white rounded-xl p-4 shadow">
+        <p class="text-sm text-gray-500">Grabado profesional en madera, metal, acrílico y más.</p>
+        <div class="mt-3 flex items-center justify-between">
+        </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section id="como-funciona" class="bg-white py-10">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-4">Cómo funciona</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left mt-6">
+        <div class="p-4">
+          <h4 class="font-semibold">Cuéntanos tu idea</h4>
+          <p class="text-sm text-gray-600">Nombre, diseño, logo o temática. ¡Nosotros lo hacemos realidad!</p>
+        </div>
+        <div class="p-4">
+          <h4 class="font-semibold">Elegimos material y técnica</h4>
+          <p class="text-sm text-gray-600">Corte láser, grabado, sublimación o vinilo según tu proyecto.</p>
+        </div>
+        <div class="p-4">
+          <h4 class="font-semibold">Producción y entrega</h4>
+          <p class="text-sm text-gray-600">Fabricamos con precisión y enviamos rápido y seguro.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- NEWSLETTER + CONTACT -->
+  <section id="contacto" class="bg-brand text-white py-10">
+    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+      <div>
+        <h3 class="text-2xl font-bold">Contactame</h3>
+        <p class="mt-2 text-sm">Siguenos en las redes sociales y recibe novedades, lanzamientos y descuentos exclusivos.</p>
+      </div>
+      <form class="flex gap-2" onsubmit="event.preventDefault(); alert('Gracias! Revisaremos tu suscripción.');">
+        <input aria-label="email" type="email" required placeholder="tu@email.com" class="p-3 rounded-md flex-1 text-black"/>
+        <button class="px-4 py-3 rounded-md bg-white text-brand font-semibold">Suscribirme</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="max-w-6xl mx-auto p-6 text-sm text-gray-500">
+    <div class="flex flex-col md:flex-row md:justify-between gap-4">
+      <div>
+        <strong>Pizpiretta</strong>
+        <div>Personalización</div>
+      </div>
+      <div class="flex gap-4 items-center">
+        <a href="#" class="hover:underline">Instagram</a>
+        <a href="#" class="hover:underline">TikTok</a>
+      </div>
+    </div>
+    <div class="mt-4 text-gray-400">© <span id="anio"></span> @scanearte_tech — Todos los derechos reservados.</div>
+  </footer>
+
+  <script>
+    document.getElementById('anio').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
